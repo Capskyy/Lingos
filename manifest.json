@@ -1,0 +1,13 @@
+ 
+{
+    "manifest_version": 2,
+    "name": "Lingos_Bot",
+    "description": "Lingos bot Effekt 4 - Kapitel 1",
+    "version": "1.0.1",
+    "content_scripts": [
+        {
+            "matches": [ "*://*.lingos.pl/*"],
+            "js": ["Content.js"]
+        }
+    ]
+    }
