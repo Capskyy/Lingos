@@ -4,83 +4,92 @@
  }
  if(web.includes("lingos.pl/students/learning")){
     switch(document.querySelector('h3.mb-3.h3').innerHTML){
-        case '\n                    przywieźć ze sobą\n                ':
-          document.querySelector('input#answer.form-control').value = 'mitbringen'
+        case '\n                    składać się z\n                ':
+          document.querySelector('input#answer.form-control').value = 'bestehen aus'
           break;
-        case '\n                    relaksować się\n                ':
-          document.querySelector('input#answer.form-control').value = 'sich entspannen'
+        case '\n                    pomagać\n                ':
+          document.querySelector('input#answer.form-control').value = 'helfen'
           break;
-        case '\n                    stacja benzynowa\n                ':
-          document.querySelector('input#answer.form-control').value = 'die Tankstelle'
+        case '\n                    prosić o\n                ':
+          document.querySelector('input#answer.form-control').value = 'bitten um'
           break;
-        case '\n                    herb\n                ':
-          document.querySelector('input#answer.form-control').value = 'das Wappen'
+        case '\n                    skarżyć się\n                ':
+          document.querySelector('input#answer.form-control').value = 'sich beschweren'
           break;
-        case '\n                    kolekcja\n                ':
-          document.querySelector('input#answer.form-control').value = 'die Sammlung'
+        case '\n                    zaczynać\n                ':
+          document.querySelector('input#answer.form-control').value = 'beginnen'
           break;
-        case '\n                    przepis\n                ':
-          document.querySelector('input#answer.form-control').value = 'das Rezept'
+        case '\n                    uważać na\n                ':
+          document.querySelector('input#answer.form-control').value = 'achten auf'
           break;
-        case '\n                    książka kucharska\n                ':
-          document.querySelector('input#answer.form-control').value = 'das Kochbuch'
+        case '\n                    przeprowadzać się\n                ':
+          document.querySelector('input#answer.form-control').value = 'umziehen'
           break;
-        case '\n                    okolica\n                ':
-          document.querySelector('input#answer.form-control').value = 'die Gegend'
+        case '\n                    pakować\n                ':
+          document.querySelector('input#answer.form-control').value = 'einpacken'
           break;
-        case '\n                    wyjazd\n                ':
-          document.querySelector('input#answer.form-control').value = 'die Abreise'
+        case '\n                    wnioskować\n                ':
+          document.querySelector('input#answer.form-control').value = 'beantragen'
           break;
-        case '\n                    jazda konna\n                ':
-          document.querySelector('input#answer.form-control').value = 'das Reiten'
+        case '\n                    rozpakować\n                ':
+          document.querySelector('input#answer.form-control').value = 'auspacken'
           break;
-        case '\n                    wietrzny\n                ':
-          document.querySelector('input#answer.form-control').value = 'windig'
+        case '\n                    jakość\n                ':
+          document.querySelector('input#answer.form-control').value = 'die Qualität'
           break;
-        case '\n                    przyjazny dla środowiska\n                ':
-          document.querySelector('input#answer.form-control').value = 'umweltfreundlich'
+        case '\n                    miejsce pracy\n                ':
+          document.querySelector('input#answer.form-control').value = 'die Stelle'
           break;
-        case '\n                    deszczowo\n                ':
-          document.querySelector('input#answer.form-control').value = 'regnerisch'
+        case '\n                    wniosek\n                ':
+          document.querySelector('input#answer.form-control').value = 'der Antrag'
           break;
-        case '\n                    lodowaty\n                ':
-          document.querySelector('input#answer.form-control').value = 'eisig'
+        case '\n                    blok mieszkalny\n                ':
+          document.querySelector('input#answer.form-control').value = 'der Wohnblock'
           break;
-        case '\n                    górzysty\n                ':
-          document.querySelector('input#answer.form-control').value = 'bergig'
+        case '\n                    przeprowadzka\n                ':
+          document.querySelector('input#answer.form-control').value = 'der Umzug'
           break;
-        case '\n                    wędrówka\n                ':
-          document.querySelector('input#answer.form-control').value = 'die Wanderung'
+        case '\n                    schody\n                ':
+          document.querySelector('input#answer.form-control').value = 'die Treppe'
           break;
-        case '\n                    plaża\n                ':
-          document.querySelector('input#answer.form-control').value = 'der Strand'
+        case '\n                    garaż podziemny\n                ':
+          document.querySelector('input#answer.form-control').value = 'die Tiefgarage'
           break;
-        case '\n                    piasek\n                ':
-          document.querySelector('input#answer.form-control').value = 'der Sand'
+        case '\n                    przedmieścia\n                ':
+          document.querySelector('input#answer.form-control').value = 'der Stadtrand'
           break;
-        case '\n                    krajobraz\n                ':
-          document.querySelector('input#answer.form-control').value = 'die Landschaft'
+        case '\n                    dom szeregowy\n                ':
+          document.querySelector('input#answer.form-control').value = 'das Reihenhaus'
           break;
-        case '\n                    mieć szczęście\n                ':
-          document.querySelector('input#answer.form-control').value = 'Glück haben'
+        case '\n                    nowy budynek\n                ':
+          document.querySelector('input#answer.form-control').value = 'das Neubau'
           break;
-        case '\n                    obóz wakacyjny\n                ':
-          document.querySelector('input#answer.form-control').value = 'das Ferienlager'
+        case '\n                    kamienica czynszowa\n                ':
+          document.querySelector('input#answer.form-control').value = 'das Mietshaus'
           break;
-        case '\n                    przeżycie\n                ':
-          document.querySelector('input#answer.form-control').value = 'das Erlebnis'
+        case '\n                    wieżowiec\n                ':
+          document.querySelector('input#answer.form-control').value = 'das Hochhaus'
           break;
-        case '\n                    przypominać sobie\n                ':
-          document.querySelector('input#answer.form-control').value = 'sich erinnern'
+        case '\n                    garaż\n                ':
+          document.querySelector('input#answer.form-control').value = 'die Garage'
           break;
-        case '\n                    poruszać się\n                ':
-          document.querySelector('input#answer.form-control').value = 'sich bewegen'
+        case '\n                    piętro\n                ':
+          document.querySelector('input#answer.form-control').value = 'die Etage'
           break;
-        case '\n                    autostrada\n                ':
-          document.querySelector('input#answer.form-control').value = 'die Autobahn'
+        case '\n                    dom jednorodzinny\n                ':
+          document.querySelector('input#answer.form-control').value = 'das Einfamilienhaus'
           break;
-        case '\n                    widok\n                ':
-          document.querySelector('input#answer.form-control').value = 'die Aussicht'
+        case '\n                    mieszkanie\n                ':
+          document.querySelector('input#answer.form-control').value = 'die Wohnung'
+          break;
+        case '\n                    dom na wsi\n                ':
+          document.querySelector('input#answer.form-control').value = 'das Bauernhaus'
+          break;
+        case '\n                    winda\n                ':
+          document.querySelector('input#answer.form-control').value = 'der Aufzug'
+          break;
+        case '\n                    stary budynek\n                ':
+          document.querySelector('input#answer.form-control').value = 'der Altbau'
           break;
         default:
             window.location.replace("https://lingos.pl/students/group");
