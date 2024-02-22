@@ -17,10 +17,7 @@
             werb[one] = two;
         });
         window.localStorage.setItem('werb', JSON.stringify(werb));
-        console.log(werb);
-        console.log(JSON.stringify(werb));
         let local = JSON.parse(window.localStorage.getItem('werb'));
-        console.log(local);
     }
  }
  if(web.includes("lingos.pl/students/learning")){
